@@ -61,12 +61,12 @@ pipeline {
             }
             post {
                 success {
-                    mail to: 'rahul4825.be22@chitkara.edu.in',
+                    mail to: 'goranshdua.be22@chitkara.edu.in',
                         subject: 'Integration Tests on Staging Success',
                         body: 'The Integration Tests on Staging have succeeded. Find attached logs for more information.'
                 }
                 failure {
-                    mail to: 'rahul4825.be22@chitkara.edu.in',
+                    mail to: 'goranshdua.be22@chitkara.edu.in',
                         subject: 'Integration Tests on Staging Failed',
                         body: 'The Integration Tests on Staging have failed. Find attached logs for more information.'
                 }
