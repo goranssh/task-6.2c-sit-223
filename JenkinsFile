@@ -39,7 +39,7 @@ pipeline {
             }
             post {
                 success {
-                    mail to: 'rahul4825.be22@chitkara.edu.in',
+                    mail to: 'goranshdua.be22@chitkara.edu.in',
                         subject: 'Security Scan Success',
                         body: 'The Security Scan has succeeded. Find attached logs for more information.'
                 }
